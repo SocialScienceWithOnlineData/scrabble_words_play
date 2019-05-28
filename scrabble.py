@@ -1,4 +1,4 @@
-WORD_LIST = "sowpods.txt"
+WORD_LIST = "words.txt"
 wordlist = file(WORD_LIST, 'r').readlines()
 # Get rid of newlines
 wordlist = [word.lower().strip() for word in wordlist]
